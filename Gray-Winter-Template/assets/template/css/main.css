@@ -1,0 +1,400 @@
+/* Font-face properties control the web fonts */
+
+@font-face {
+  font-family: "OpenDyslexic";
+  src: url("/assets/template/fonts/OpenDyslexic/OpenDyslexic3-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "OpenDyslexic-Bold";
+  src: url("/assets/template/fonts/OpenDyslexic/OpenDyslexic3-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Literata";
+  src: url("/assets/template/fonts/Literata/Literata-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Literata-Bold";
+  src: url("/assets/template/fonts/Literata/Literata-Bold.ttf") format("truetype");
+}
+
+
+@font-face {
+  font-family: "Literata-Italic";
+  src: url("/assets/template/fonts/Literata/Literata-Italic.ttf") format("truetype");
+}
+
+/* latin */
+@font-face {
+  font-family: 'Literata';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/literata/v14/or38Q6P12-iJxAIgLa78DkTtAoDhk0oVpaLlbJ5Q7ihaOviS.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+/* This controls everything in the document*/
+
+* {
+
+font-family: 'Literata';
+
+
+}
+
+
+/* body of the document */
+body {
+
+margin: 1%;
+padding:1%;
+background-image: url(/assets/img/logos/snowflake1.png);
+background-color:#93A3B1;
+background-size:100%;
+background-position: top, bottom;
+background-repeat: no-repeat, repeat;
+
+
+}
+
+
+
+/* main div */
+div#main {
+
+display: flex;
+flex-wrap: wrap;
+color:#f0f2f4;
+padding: 0;
+margin: 0px;
+border-top: solid 1px #383838;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+background-size:100%;
+background-color:#7C898B;
+  
+}
+
+
+
+/* articles, asides and sections */
+article, section, aside {
+
+padding: 1%;
+
+text-align:left;
+
+}
+
+/* columns and rows */
+.row {
+
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+width: 100%;
+padding: 0;
+margin: 0;
+
+}
+
+
+.column {
+
+display: flex;
+flex-wrap:wrap;
+flex-direction: column;
+flex-basis: 100%;
+flex: 1;
+padding: 1.5%;
+margin: 1.5%;
+padding-top:0;
+
+}
+
+
+/* links */
+
+a { text-decoration: none;
+
+color: #cddce9;
+
+transition:all 0.1s linear;
+}
+
+a:hover {color:#ccc;
+
+}
+
+a:active {color:#f0f2f4;
+
+}
+
+
+
+/* lists */
+
+ul {
+
+  list-style-type: circle;
+}
+
+ul {
+
+  list-style-type: circle;
+}
+
+ol{
+list-style-type: upper-roman;
+
+}
+
+
+/* bold and italic */
+ 
+b {
+font-family: 'Literata-Bold';
+
+}
+
+i {
+
+  font-family: 'Literata-Italic';
+} 
+
+
+h1, h2, h3, h4, h5, h6, h7, h8, h9, h10 {
+ 
+font-size: 1em;
+ color:#383838;
+text-align:center;
+
+
+}
+
+
+/* headings */
+
+h1 {
+
+  font-size: 2.5em;
+}
+
+h2 {
+
+  font-size: 2em;
+}
+
+h3 {
+
+  font-size: 1.8em;
+}
+
+h4 {
+
+  font-size: 1.5em;
+}
+
+h5 {
+
+  font-size: 1em;
+}
+
+/* header */
+
+header h1, header h1 a {
+
+margin: auto;
+color: #0d0c42;
+font-family:'OpenDyslexic';
+background-repeat:no-repeat;
+padding: 5px;
+}
+
+header h1 a:hover {
+
+  color: #0d0c42;
+}
+
+header h1 a:active {
+
+color: #f0f2f4;
+}
+
+header {
+
+font-size: 2em;
+text-align:center;
+
+}
+
+
+
+/* footer */
+
+.footer {
+
+padding: 5%;
+
+}
+
+footer {
+
+color:#f0f2f4;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+background-image: url(/assets/img/logos/snowflake2.png);
+background-color:#7C898B;
+background-size:100%;
+background-position: bottom, top;
+background-repeat: no-repeat, repeat;
+
+}
+
+/* fieldset */
+
+fieldset {
+  border: none;
+  margin: 20px 0;
+  max-width:98%;
+  height:300px;
+  overflow:scroll;
+  overflow-style: none;
+  font-family: 'OpenDyslexic';
+}
+
+/* Hide scrollbars but keep scroll functionality in fieldsets*/
+
+fieldset::-webkit-scrollbar {
+  display: none;
+}
+
+/* legend */
+
+legend {
+  font-size: 1.3em;
+  color: #383838;
+  margin-bottom: 10px;
+  text-align:center;
+  font-family: 'Literata';
+
+}
+
+/*Textarea */
+
+textarea {
+  color: #383838;
+  width:100%;
+  height: 100px;
+  box-sizing: border-box;
+  border: 1px solid #93A3B1;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #cddce9;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  font-family:'OpenDyslexic';
+    
+}
+
+/* buttons and input area for contact form */
+
+input {background-color: #cddce9;
+
+  border: 1px solid #93A3B1;
+  font-family: 'OpenDyslexic';
+
+}
+
+/* Scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #93a3b1; 
+  box-shadow: inset 0 0 5px #788ca0; 
+  
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #788ca0; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #66757a; 
+}
+
+
+
+
+/* columns and rows */
+
+@media screen and (max-width: 700px) {
+
+.column {flex:100%;
+
+}
+
+
+
+}
+
+@media screen and (max-width: 1500px) {
+
+
+ 
+   header h1 {
+
+  font-size:1.5em;
+}
+
+
+
+}
+
+@media screen and (min-width: 1050px) {
+  nav ul {
+  flex-direction: row;
+  justify-content: space-between;
+  .column {flex:50%;}
+}
+
+.column {
+    width: 100%;
+  }
+
+  table {width:100%;}
+
+  
+feildset {
+
+  height: 10%;
+
+
+  }
+
+
+
+   header h1 {
+
+  font-size:2em;
+}
+
+
+}
+
+
+
+

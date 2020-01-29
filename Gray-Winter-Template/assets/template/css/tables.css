@@ -1,0 +1,42 @@
+table,td,th{
+
+  font-family:OpenDyslexic;
+  border:solid 1px;
+  border-collapse:collapse;
+
+  padding: .5%;
+
+   
+}
+
+
+
+td
+{
+ 
+  padding: .5%;
+
+}
+th
+{
+  border-bottom:double 4px;
+   padding: .5%;
+    
+}
+
+tr:nth-child(even) {
+   background-color:#788CA0;
+}
+
+tr:nth-child(odd) {
+   background-color:#8494a4;
+}
+
+
+tr:hover  {
+    background-color: #cadcfc;
+    color: #0d0c42;
+    
+
+}
+

@@ -1,0 +1,189 @@
+/* BackToTop button css */
+#scroll {
+    position:fixed;
+    right:10px;
+    bottom:10px;
+    cursor:pointer;
+    width:50px;
+    height:50px;
+    background-color:#cddce9;
+    text-indent:-9999px;
+    display:none;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    transition:all 0.1s linear;
+
+}
+#scroll span {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-8px;
+    margin-top:-12px;
+    height:0;
+    width:0;
+    border:8px solid transparent;
+    border-bottom-color:#788CA0;
+    
+}
+
+
+#scroll:hover {
+    background-color:#cadcfc;
+    opacity:1;
+    filter:"alpha(opacity=100)";
+    -ms-filter:"alpha(opacity=100)";
+     
+}
+
+#scroll:active {
+
+  background-color:#0d0c42;
+
+}
+
+.social {
+
+  list-style-type: none;
+
+margin:0px;
+padding:0px;
+
+text-align:center;
+
+
+}
+
+
+
+.social li {
+  display: inline;
+  font-size: 15px;
+  padding: 3px;
+  float:left;
+ font-size:1.09em; 
+ transition:all 0.1s linear;
+  
+}
+
+.fa {
+
+  text-decoration: none;
+
+}
+
+
+
+.social a:hover {
+  
+  background-color:#d4dce6;
+  color:#666;
+}
+
+.social a:active {
+
+  background-color:#f0f2f4;
+}
+
+.fa-facebook-official, .fa-facebook, .fa-twitter,.fa-tumblr, .fa-behance, .fa-deviantart, .fa-medium, .fa-instagram, .fa-github-alt, .fa-github, .fa-quora, .fa-reddit-alien,.fa-youtube, .fa-pinterest, .fa-weibo, .fa-vimeo-square, .fa-yelp, .fa-telegram, .fa-spotify, .fa-wordpress, .fa-google, .fa-bandcamp, .fa-wechat {
+  background-color: #cddce9;
+  color: #383838;
+  padding:25px;
+  border-radius:100%;
+  transition:all 0.3s linear;
+
+}
+
+
+
+button{
+  
+	background-color:#d4dce6;
+	border-radius:10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#666;
+  font-size:1em;
+  max-width:30%;
+	padding:0.5%;
+	text-decoration:none;
+  border: 1px solid #cddce9;
+  margin:1px;
+}
+
+button:active {
+	position:relative;
+   background-color:#ccc;
+	top:1px;
+}
+
+
+button.basic{
+  background:linear-gradient(to bottom, #d4dce6 5%, #fff 100%);
+	background-color:#d4dce6;
+	border-radius:10px;
+	display:inline-block;
+	cursor:pointer;
+  color:#666;
+  font-size:1em;
+  max-width:30%;
+	padding:0.5%;
+	text-decoration:none;
+  border: 1px solid #d4dce6;
+  margin:1px;
+}
+button.basic:hover {
+  color:#383838;
+   border: 1px solid #fff;
+}
+button.basic:active {
+	position:relative;
+   background:linear-gradient(to top, #d4dce6 5%, #fff 100%);
+	top:1px;
+}
+
+button.fa {
+
+  width: 70px;
+  height: 70px;
+  margin:1px; 
+  background:linear-gradient(to top, #cddce9 5%, #f0f2f4 100%);
+  border-radius:100%;
+}
+
+button.fa:active {
+
+  
+
+background:linear-gradient(to bottom, #cddce9 5%, #f0f2f4 100%);
+
+  border-radius:100%;
+}
+
+button a , button.fa a , button.basic a {
+
+  color:#666;
+}
+
+button a:hover , button.fa a:hover , button.basic a:hover {
+
+  color:#383838;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+button {
+
+  max-width:50%;
+}
+
+
+button.basic {
+
+  max-width:50%;
+}
+
+
+}

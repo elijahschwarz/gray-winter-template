@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Gray Winter Template</title>
+<link rel="icon" href="/assets/img/logos/winter-favicon.png">
+
+<link href="/assets/template/css/style.css" rel="stylesheet" type="text/css">
+
+<link href="https://fonts.googleapis.com/css?family=Alegreya&display=swap" rel="stylesheet">
+<link href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'/>
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+        
+       <script src="https://code.jquery.com/jquery-2.1.1.js"></script>
+
+<style> 
+
+
+
+</style>
+    
+    </head>
+<body>
+    
+
+
+<header><h1 id="top"><a href="/index.html">Gray Winter Template</a></h1> <a href="/index.html"><img src="/assets/img/logos/logo.png" alt="Logo" class="logo"></a></header>
+
+ 
+
+<br>
+
+<nav>
+<ul class="dropdown">
+  <li><a href="/index.html">Home</a></li>          
+  <li><a href="/pages/about.html">About This Template</a></li>    
+  <li><a href="#" class="thispage">How To Use This Template</a>
+ <ul>
+    <li><a href="/pages/howtodownload.html">How To Download This Template</a></li>
+    <li><a href="/pages/howtocustomize.html" class="thispageDropdown" >How To Customize This Template</a></li>                
+    <li><a href="/pages/howtoaddcontent.html">How To Add Content to This Template</a></li>
+    
+  </ul>
+      </li>
+      <li><a href="/pages/download.html">Download</a></li>
+  </ul>
+</nav>
+
+
+<div id ="main">
+<div class="row">
+   <div class="column">
+ 
+   <section><h2>How To Customize This Template</h2>
+
+   <p>Before reading this page, please read <a href="https://gray-winter-template.elijahschwarz.repl.co/pages/howtodownload.html">How To Download This Template</a>.</p>
+
+    <p>This template uses CSS and javascript, but most of the design aspects are controlled with CSS. Each part of the template is styled using a separate CSS file, all of which are called using one stylesheet and the @import at-rule. All of the necessary CSS files are called within one file called /style.css which is located within the assets/template/css/ subfolders. </p>
+  
+<p>
+  It is not necessary for the user to touch the main stylesheets in order to customize this template. When customizing this template, a user should not open the /template/ folder or touch any of the files inside. Instead, the user should open the /custom/ folder within the /assets/ folder. Inside, there is a file called /custom.css. The user can then add custom CSS to this file in order to overwrite default template styles. From the /custom.css file, the user may add or remove their own background images and customize the color palette. Everything that the user writes in the /custom.css file will overwrite the template defaults. </p>
+
+<img src="/assets/img/logos/screenshot-custom1.png" alt="screenshot" width="400" class="responsive">
+
+<img src="/assets/img/logos/screenshot-custom2.png" alt="screenshot" width="500" class="responsive">
+
+<img src="/assets/img/logos/screenshot-custom3.png" alt="screenshot" width="500" class="responsive">
+
+<p>
+
+ To select an element to edit without going into the HTML document, right click on the screen and click 'inspect'. On a tablet, use the finger or stylus to hilight the desired element. 
+
+</p>
+
+<img src="/assets/img/logos/screenshot-custom5.png" alt="screenshot" width="500" class="responsive">
+
+<img src="/assets/img/logos/screenshot-custom4.png" alt="screenshot" width="500" class="responsive">
+
+<img src="/assets/img/logos/screenshot-custom6.png" alt="screenshot" width="500" class="responsive">
+
+<img src="/assets/img/logos/screenshot-custom7.png" alt="screenshot" width="500" class="responsive">
+
+<p>With the /custom.css file, it is easy for a user to add a custom color pallette, remove or add background images, and even import new fonts. The custom.css file is the same as any other css file except that it will overwrite existing css rules contained within other documents. </p>
+
+<img src="/assets/img/logos/screenshot-custom9.png" alt="screenshot" height="250" >
+
+<img src="/assets/img/logos/screenshot-custom8.png" alt="screenshot" width="500" class="responsive">
+
+<p>In style.css, all stylesheets are called using @import. Because custom.css is at the bottom of the stylesheet, it will overwrite all other styles, allowing users to customize the color palette and clipart images without breaking the structual CSS with any potential editing errors. </p>
+
+<p>A <a href="https://coolors.co/">random color palette genorator</a> was used to create the 'winter themed' default color palette and the background images were found on <a href="https://www.cleanpng.com/"> CleanPNG</a>. These colors and images can easily be replaced in custom.css. </p>
+
+<p>When a developer has chosen or created their own custom colors and images, they should move on to <a href="https://gray-winter-template.elijahschwarz.repl.co/pages/howtoaddcontent.html">How To Add Content To This Template.</a></p>
+
+</section>
+ 
+  </div>
+
+</div>
+</div>
+<footer><div class="row">
+  <div class='column'>
+  <div class="left-column">
+  <div class="footer"> <fieldset><legend>Contact</legend>
+   
+  
+ 
+<p><p class="fa fa-user"></p> Your Name
+
+
+<p><p class="fa fa-phone"></p> 1 (555) 555-5555
+
+
+
+<p><p class="fa fa-envelope"></p> yourname@domain.com
+
+</fieldset>
+</div>
+  </div>
+  </div>
+  <div class='column'>
+  
+
+<div class="footer">     
+           
+  <form action="https://formspree.io/youremailaddressgoeshere" method="POST">
+
+     <fieldset>
+      <legend>Contact Form</legend>
+                    
+        <p><label for="name">Name:</label>
+         <input name="name" type="text" id="name" placeholder="Your Name"></p>        
+        <p><label for="email">Email:</label>
+          <input name="email" type="email" id="email" placeholder="youremail@domain.com"></p>
+        <p>
+          <textarea name="textarea" id="textarea" placeholder="Comments here"></textarea>
+        </p>
+
+        <p>       
+          <input name="Submit" type="submit" value="Submit Form">
+          <input name="reset" type="reset" value="Clear Form">
+                </p>
+      </fieldset>
+      </form>
+</div>
+  
+</div>
+  <div class='column'>
+  
+<div class="footer"><fieldset><legend>Social Media</legend>
+
+
+<ul class="social">
+  
+
+<li><a class="fa fa-behance" href="#"></a></li>
+
+
+<li><a class="fa fa-deviantart" href="#"></a></li>
+
+
+
+<li><a class="fa fa-facebook-official" href="#"></a></li>
+
+
+<li><a class="fa fa-github-alt" href="#"></a></li>
+
+
+<li><a class="fa fa-instagram" href="#"></a></li>
+
+<li><a class="fa fa-medium" href="#"></a></li>
+
+<li><a class="fa fa-pinterest" href="#"></a></li>
+
+
+<li><a class="fa fa-spotify" href="#"></a></li>
+
+<li><a class="fa fa-twitter" href="#"></a></li>
+
+<li><a class="fa fa-vimeo-square" href="#"></a></li>
+
+<li><a class="fa fa-wechat" href="#"></a></li>
+
+<li><a class="fa fa-weibo" href="#"></a></li>
+
+<li><a class="fa fa-wordpress" href="#"></a></li>
+
+<li><a class="fa fa-yelp" href="#"></a></li>
+
+<li><a class="fa fa-youtube" href="#"></a></li>
+
+
+</ul>
+
+</fieldset>
+
+
+
+
+</div>
+
+  </div>
+ 
+
+</div>
+
+
+</footer>
+
+
+   
+
+  <script  src="/assets/template/js/gallery.js">
+       </script> 
+
+           <script  src="/assets/template/js/scroll.js">
+
+    
+       </script> 
+
+  
+
+ <a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;"><span></span></a>
+     
+</body>
+</html>
+
